@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC1_LoginToAmezon is passed]]>
+    </line>
+    <line>
+      <![CDATA[TC2_LogintoLogout is passed]]>
+    </line>
+    <line>
+      <![CDATA[TC3_SerchingTheProduct ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-16T14:45:14 IST" name="Suite" finished-at="2026-02-16T14:47:16 IST" duration-ms="122156">
+    <groups>
+    </groups>
+    <test started-at="2026-02-16T14:45:14 IST" name="Test" finished-at="2026-02-16T14:47:16 IST" duration-ms="122156">
+      <class name="amazonEndToEnd.TC2_LogintoLogout$TC1_LoginToAmezon">
+        <test-method is-config="true" signature="browser_launch(java.lang.String)[pri:0, instance:amazonEndToEnd.TC2_LogintoLogout$TC1_LoginToAmezon@294425a7]" started-at="2026-02-16T14:45:48 IST" name="browser_launch" finished-at="2026-02-16T14:45:54 IST" duration-ms="5746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method signature="login_Withvalidcredential_Logout()[pri:0, instance:amazonEndToEnd.TC2_LogintoLogout$TC1_LoginToAmezon@294425a7]" started-at="2026-02-16T14:45:54 IST" name="login_Withvalidcredential_Logout" finished-at="2026-02-16T14:46:19 IST" duration-ms="24809" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC2_LogintoLogout is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_Withvalidcredential_Logout -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:amazonEndToEnd.TC2_LogintoLogout$TC1_LoginToAmezon@294425a7]" started-at="2026-02-16T14:46:20 IST" name="browser_Close" finished-at="2026-02-16T14:46:24 IST" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- amazonEndToEnd.TC2_LogintoLogout$TC1_LoginToAmezon -->
+      <class name="amazonEndToEnd.TC1_LoginToAmezon">
+        <test-method is-config="true" signature="browser_launch(java.lang.String)[pri:0, instance:amazonEndToEnd.TC1_LoginToAmezon@20ce78ec]" started-at="2026-02-16T14:45:14 IST" name="browser_launch" finished-at="2026-02-16T14:45:21 IST" duration-ms="7205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method signature="login_Withvalidcredential()[pri:0, instance:amazonEndToEnd.TC1_LoginToAmezon@20ce78ec]" started-at="2026-02-16T14:45:21 IST" name="login_Withvalidcredential" finished-at="2026-02-16T14:45:47 IST" duration-ms="26072" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1_LoginToAmezon is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_Withvalidcredential -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:amazonEndToEnd.TC1_LoginToAmezon@20ce78ec]" started-at="2026-02-16T14:45:47 IST" name="browser_Close" finished-at="2026-02-16T14:45:48 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- amazonEndToEnd.TC1_LoginToAmezon -->
+      <class name="amazonEndToEnd.TC3_Login_Serching">
+        <test-method is-config="true" signature="browser_launch(java.lang.String)[pri:0, instance:amazonEndToEnd.TC3_Login_Serching@67d48005]" started-at="2026-02-16T14:46:24 IST" name="browser_launch" finished-at="2026-02-16T14:46:35 IST" duration-ms="10870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method signature="serchingProduct()[pri:0, instance:amazonEndToEnd.TC3_Login_Serching@67d48005]" started-at="2026-02-16T14:46:35 IST" name="serchingProduct" finished-at="2026-02-16T14:47:15 IST" duration-ms="39832" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC3_SerchingTheProduct ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- serchingProduct -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:amazonEndToEnd.TC3_Login_Serching@67d48005]" started-at="2026-02-16T14:47:15 IST" name="browser_Close" finished-at="2026-02-16T14:47:16 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- amazonEndToEnd.TC3_Login_Serching -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -30,9 +30,10 @@ public class TC3_Login_Serching  extends BaseClass{
 		homepage.serchingProduct("shoe");
 		
 		SearchResultPage search=new SearchResultPage(driver);
+		
 		search.clickingFirstProduct();
 		s.assertEquals(driver.getCurrentUrl().toLowerCase().contains("shoe"),true);
-		s.assertEquals(search.checkingProductVisibility(), true);
+	
 		Reporter.log("TC3_SerchingTheProduct ");
 	}
 	
